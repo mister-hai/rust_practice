@@ -1,0 +1,14 @@
+[package]
+name = "rust_practice"
+version = "0.1.0"
+authors = ["mister_hai <moopthesad@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termcolor = "1.1.0" 
+tokio = { version = "1", features = ["full"] }
+serde_json = {version = "1.0.64"}
+threadpool = {version = "1.8.1"}
+async-compat = {version = "0.2.1"}
